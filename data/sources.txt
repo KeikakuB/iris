@@ -1,0 +1,15 @@
+http://cnn.com
+http://independent.co.uk
+http://news.ycombinator.com
+http://nytimes.com
+http://usatoday.com
+http://www.bbc.co.uk
+http://www.cbc.ca
+http://www.dailymail.co.uk
+http://www.forbes.com
+http://www.foxnews.com
+http://www.theguardian.com
+http://www.huffpost.com
+http://www.nbcnews.com
+http://www.nypost.com
+http://www.reuters.com

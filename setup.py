@@ -5,7 +5,7 @@ setup(
     py_modules=['iris'],
     packages=find_packages(),
     python_requires='>=3',
-    install_requires=['click', 'newspaper3k'],
+    install_requires=['click', 'newspaper3k', 'twython'],
     entry_points='''
         [console_scripts]
         iris=iris:cli
