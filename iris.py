@@ -5,9 +5,20 @@ import os
 import click
 import newspaper
 
+
 @click.command()
-@click.option('-s', '--sources', type=click.Path(exists=True), help="File containing news source URLs on each line, defaults to taking them from stdin if not set.")
-@click.option('-n', '--max_articles_per_source', type=int, default=None, help="Maximum number of articles to pull from each source.")
+@click.option(
+    '-s',
+    '--sources',
+    type=click.Path(exists=True),
+    help=
+    "File containing news source URLs on each line, defaults to taking them from stdin if not set."
+)
+@click.option('-n',
+              '--max_articles_per_source',
+              type=int,
+              default=None,
+              help="Maximum number of articles to pull from each source.")
 @click.option('-v', '--verbose', is_flag=True, help="Enable verbose logging.")
 def cli(sources, verbose, max_articles_per_source):
     logging_level = logging.DEBUG if verbose else logging.ERROR
